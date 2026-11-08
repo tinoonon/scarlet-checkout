@@ -204,7 +204,7 @@ function summaryHTML(shipping, total) {
     '<div class="row"><span>Subtotal</span><span>' + formatBRL(SUBTOTAL) + "</span></div>" +
     '<div class="row"><span>Frete</span><span id="sum-ship">' + moneyOr(shipping, "A calcular") + "</span></div><hr>" +
     '<div class="total"><span>Total</span><span id="sum-total">' + moneyOr(total, "—") + "</span></div></div>" +
-    '<div class="item"><img src="img/produto.jpg" alt="Kit de produtos Scarlet" width="66" height="66" loading="lazy">' +
+    '<div class="item"><img src="img/produto2.png" alt="Kit de produtos Scarlet" width="66" height="66" loading="lazy">' +
     '<div><p class="n">Opção 1</p><p class="p">' + formatBRL(SUBTOTAL) + '</p><p class="q">Qtd: 1</p></div></div>' +
     "</div></section>";
 }
